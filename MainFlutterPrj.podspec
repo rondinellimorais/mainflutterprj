@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MainFlutterPrj"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Aqui vai um descricao legal"
   s.homepage     = "https://github.com/rondinellimorais"
   s.license      = 'MIT'
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/rondinellimorais/mainflutterprj.git', :branch => 'master' }
 
   # all flutter frameworks
-  s.vendored_frameworks = "*.xcframework"
+  s.vendored_frameworks = "*.framework"
 
 end
